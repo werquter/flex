@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Иллюстрация блока -->
+    <h2>СВОЙСТВА FLEX-КОНТЕЙНЕРА</h2>
+    <br />
+    <div class="block">
+      <div class="num">1</div>
+      <div class="item text">
+        
+        <h1 class="title">display:flex;</h1>
+        <p class="desc">
+          Назначение: Создаёт Flexbox. <br />
+          Возможные значения: flex / inline-flex
+        </p>
+      </div>
+      <div class="item">
+        <div class="illustration">
+          <div class="box">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">flex</div>
+        </div>
+        <div class="illustration">
+          <div class="box">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">inline-flex</div>
+        </div>
+      </div>
+    </div>
+    <!-- flex-direction -->
+    <div class="block">
+      <div class="num">2</div>
+      <div class="item text">
+        <h1 class="title">flex-direction:row;</h1>
+        <p class="desc">
+          Назначение: Раскладывает элементы по осям. <br />
+          Возможные значения: row / row-reverse / column / column-reverse.
+        </p>
+      </div>
+      <div class="item">
+        <div class="illustration">
+          <div class="box">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">row</div>
+        </div>
+        <div class="illustration">
+          <div class="box row">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">row-reverse</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="illustration">
+          <div class="box column">
+            <div class="card co"></div>
+            <div class="card co"></div>
+            <div class="card co"></div>
+          </div>
+          <div class="name">column</div>
+        </div>
+        <div class="illustration">
+          <div class="box column">
+            <div class="card co"></div>
+            <div class="card co"></div>
+            <div class="card co"></div>
+          </div>
+          <div class="name">column-reverse</div>
+        </div>
+      </div>
+    </div>
+    <!-- flex-wrap:nowrap; -->
+    <div class="block">
+      <div class="num">3</div>
+      <div class="item text">
+        <h1 class="title">flex-wrap:nowrap;</h1>
+        <p class="desc">
+          Назначение: Раскладывает элементы в одну или больше строк. <br />
+          Возможные значения: nowrap / wrap / wrap-reverse.
+        </p>
+      </div>
+      <div class="item">
+        <div class="illustration">
+          <div class="box">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">nowrap</div>
+        </div>
+        <div class="illustration">
+          <div class="box wrap">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">wrap</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="illustration">
+          <div class="box wrap-reverse">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">wrap-reverse</div>
+        </div>
+      </div>
+    </div>
+    <!-- flex-flow:row nowrap; -->
+    <div class="block">
+      <div class="num">4</div>
+      <div class="item text">
+        <h1 class="title">flex-flow:row nowrap;</h1>
+        <p class="desc">
+          Назначение: Одно свойство для flex-direction и flex-flow. <br />
+          Возможные значения: 2 и 3 пункт.
+        </p>
+      </div>
+    </div>
+    <!-- justify-content:flex-start -->
+    <div class="block">
+      <div class="num">5</div>
+      <div class="item text">
+        <h1 class="title">justify-content:flex-start;</h1>
+        <p class="desc">
+          Назначение: Раскладывает элементы по оси X. <br />
+          Возможные значения: flex-start / flex-end / center / space-between /
+          space-around.
+        </p>
+      </div>
+      <div class="item">
+        <div class="illustration">
+          <div class="box">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">flex-start</div>
+        </div>
+        <div class="illustration">
+          <div class="box row">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">flex-end</div>
+        </div>
+      </div>
+
+      <div class="item">
+          <div class="illustration">
+            <div class="box center">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+            <div class="name">center</div>
+          </div>
+          <div class="illustration">
+            <div class="box space">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+            <div class="name">space-between</div>
+          </div>
+        </div>
+        <div class="illustration">
+          <div class="box around ">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+          </div>
+          <div class="name">space-around</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- align-items: stretch; -->
+    <div class="block">
+        <div class="num">6</div>
+        <div class="item text">
+          <h1 class="title">align-items: stretch;</h1>
+          <p class="desc">
+            Назначение: Раскладывает элементы по оси Y. <br />
+            Возможные значения: stretch / flex-start / center / baseline.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration">
+            <div class="box">
+              <div class="card"></div>
+              <div class="card"></div>
+              <div class="card"></div>
+            </div>
+            <div class="name">stretch</div>
+          </div>
+          <div class="illustration">
+            <div class="box flex-start">
+              <div class="card start"></div>
+              <div class="card start"></div>
+              <div class="card start"></div>
+            </div>
+            <div class="name">flex-start</div>
+          </div>
+        </div>
+  
+        <div class="item">
+            <div class="illustration">
+              <div class="box flex-end">
+                <div class="card end"></div>
+                <div class="card end"></div>
+                <div class="card end"></div>
+              </div>
+              <div class="name">flex-end</div>
+            </div>
+            <div class="illustration">
+              <div class="box align-center">
+                <div class="card end"></div>
+                <div class="card end"></div>
+                <div class="card end"></div>
+              </div>
+              <div class="name">center</div>
+            </div>
+          </div>
+          <div class="illustration">
+            <div class="box baseline">
+              <div class="card ba"></div>
+              <div class="card bas"></div>
+              <div class="card basel"></div>
+              <div class="card baselin"></div>
+            </div>
+            <div class="name">baseline</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="num">7</div>
+        <div class="item text">
+          <h1 class="title">align-content: stretch;</h1>
+          <p class="desc">
+            Назначение: Раскладывает строки элементов по оси Y. <br />
+            Возможные значения: stretch / flex-start / flex-end / center / space-between / space-around.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration">
+            <div class="box stretch">
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+            </div>
+            <div class="name">stretch</div>
+          </div>
+          <div class="illustration">
+            <div class="box content">
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              
+            </div>
+            <div class="name">flex-start</div>
+          </div>
+        </div>
+  
+        <div class="item">
+            <div class="illustration">
+              <div class="box flex-end">
+                <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+            
+              </div>
+              <div class="name">flex-end</div>
+            </div>
+            <div class="illustration">
+              <div class="box align-center">
+                <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              </div>
+              <div class="name">center</div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="illustration">
+              <div class="box space-between">
+                <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              </div>
+              <div class="name">space-between</div>
+            </div>
+            <div class="illustration">
+              <div class="box space-around">
+                <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              <div class="card cont"></div>
+              </div>
+              <div class="name">space-around</div>
+            </div>
+          </div>
+         
+          
+        </div>
+      </div>
+
+      <h2>СВОЙСТВА FLEX-ЭЛЕМЕНТА.</h2> <br>
+      <div class="block">
+        <div class="num">1</div>
+        <div class="item text">
+          
+          <h1 class="title">order:0;</h1>
+          <p class="desc">
+            Назначение: Задает порядок расстановки элементов. <br />
+            Возможные значения: целые числа.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration orders">
+            <div class="name">order:0 order:1</div>
+            <div class="box order">
+              <div class="card all one">1</div>
+              <div class="card all two">2</div>
+              <div class="card all three">3</div>
+              <div class="card all four ">4</div>
+              <div class="card all five">5</div>
+            </div>
+            <div class="name">order:-1 order:0 order:2</div>
+          </div>
+        </div>
+      </div>
+     
+
+      <div class="block">
+        <div class="num">2</div>
+        <div class="item text">
+          
+          <h1 class="title">flex-grow:0;</h1>
+          <p class="desc">
+            Назначение:Растягивает ширину элемента. <br />
+            Возможные значения: целое неотрицательное число.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration orders">
+            <div class="box order">
+              <div class="card">1</div>
+              <div class="card">2</div>
+              <div class="card">3</div>
+              <div class="card">4</div>
+            </div>
+            <div class="name">flex-grow:1</div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="illustration orders">
+              <div class="box order">
+                <div class="card">1</div>
+                <div class="card">2</div>
+                <div class="card tree">3</div>
+                <div class="card">4</div>
+              </div>
+              <div class="name">flex-grow:3</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="block">
+        <div class="num">3</div>
+        <div class="item text">
+          
+          <h1 class="title">flex-shrink:1;</h1>
+          <p class="desc">
+            Назначение: Сужает ширину элемента. <br />
+            Возможные значения: 0.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration orders">
+            <div class="box order">
+              <div class="card">1</div>
+              <div class="card">2</div>
+              <div class="card">3</div>
+              <div class="card">4</div>
+            </div>
+            <div class="name">flex-shrink:1</div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="illustration orders">
+              <div class="box order">
+                <div class="card">1</div>
+                <div class="card too">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+                <div class="card">6</div>
+              </div>
+              <div class="name">flex-shrink:0</div>
+            </div>
+          </div>
+      </div>
+      <div class="block">
+        <div class="num">4</div>
+        <div class="item text">
+          
+          <h1 class="title">flex-basis:auto;</h1>
+          <p class="desc">
+            Назначение: Сужает ширину элемента. <br />
+            Возможные значения: 0.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration orders">
+            <div class="box order">
+              <div class="card">1</div>
+              <div class="card">2</div>
+              <div class="card">3</div>
+              <div class="card">4</div>
+            </div>
+            <div class="name">flex-base:auto</div>
+          </div>
+        </div>
+        <div class="item">
+            <div class="illustration orders">
+              <div class="box order">
+                <div class="card">1</div>
+                <div class="card twoo">2</div>
+                <div class="card">3</div>
+                <div class="card">4</div>
+                <div class="card">5</div>
+              </div>
+              <div class="name">flex-base:100px</div>
+            </div>
+          </div>
+      </div>
+      <div class="block">
+        <div class="num">5</div>
+        <div class="item text">
+          
+          <h1 class="title">flex:0 1 auto;</h1>
+          <p class="desc">
+            Назначение: Сокращенный вариант двух свойств flex-grow,flex-shrink и flex-basis. <br />
+            Возможные значения: пункт 2,3 и 4.
+          </p>
+        </div> 
+    </div>
+    <div class="block">
+        <div class="num">6</div>
+        <div class="item text">
+          
+          <h1 class="title">align-self:auto</h1>
+          <p class="desc">
+            Назначение: Выравнивает эллемент по умолчанию. <br />
+            Возможные значения: auto / flex-start / flex-end / center / baseline / stretch.
+          </p>
+        </div>
+        <div class="item">
+          <div class="illustration orders">
+            <div class="name">align-self:flex-start</div>
+            <div class="box order">
+              <div class="card"></div>
+              <div class="card self"></div>
+              <div class="card selff"></div>
+              <div class="card"></div>
+            </div>
+            <div class="name">align-self:flex-end</div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

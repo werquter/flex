@@ -1,0 +1,213 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:rgb(110, 175, 205) ;
+}
+
+.block{
+    display: flex;
+
+    margin-bottom: 50px;
+    gap: 30px;
+}
+h2{
+   margin-top: 30px;
+   margin-left: 30px;
+
+}
+
+.num{
+    width: 20px;
+    height: 40px;
+    background-color: rgb(108, 197, 197);
+    font-weight:900;
+    color: aliceblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.desc{
+    margin-top: 20px;
+}
+.item{
+    /* width: 400px; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    
+
+}
+.box{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(110, 175, 205) ;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+.card{
+    width: 30px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+.illustration{
+    display: flex;
+    gap: 10px;  
+    align-items: center;  
+}
+ .row{
+    justify-content:flex-end;
+}
+.column{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.co{
+    width: 30px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 3px;
+}
+.wrap{
+    flex-wrap: wrap;
+    height: 100px;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+    height: 100px;
+}
+.d{
+    display: flex;
+}
+
+.text{
+    width: 400px;
+}
+.center{
+    justify-content: center;
+}
+.space{
+ justify-content:space-between ;
+}
+.around{
+    justify-content:space-around;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.start{
+    height: 20px;
+    margin-top: 3px;
+}
+.flex-end{
+    align-items: flex-end;
+}
+.end{
+    height: 20px;
+    margin-bottom: 3px;
+}
+.align-center{
+    align-items: center;
+}
+.baseline{
+    align-items: center;
+
+}
+.ba{
+    height: 20px;
+   
+
+}
+.bas{
+    height: 30px;
+}
+.basel{
+    height:40px;
+    align-items: center;
+
+}
+.baselin{
+    height: 17px;
+}
+.stretch{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: stretch;
+}
+
+.cont{
+    height: 10px;
+    margin-bottom: 3px;
+    margin-top:3px;
+    border-radius: 2px;
+
+}
+.content{
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.flex-end{
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.align-center{
+    flex-wrap: wrap;
+    align-content: center;
+}
+.space-between{
+    align-content: space-between;
+    flex-wrap:wrap;
+
+}
+.space-around{
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+}
+.order{
+    margin-bottom: 0;
+}
+.one{
+order: 0;}
+.two{
+    order: 1;
+}
+.three{
+    order: -1;
+}
+.five{
+    order: 2;
+}
+.tree{
+    flex-grow: 3;
+}
+.too{
+    flex-shrink:0;
+}
+.twoo{
+    flex-basis: 100px;
+}
+.self{
+    height: 18px;
+    align-self: flex-start;
+    margin-top: 5px;
+}
+.selff{
+    height: 18px;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+
